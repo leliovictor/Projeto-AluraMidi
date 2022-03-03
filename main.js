@@ -1,5 +1,5 @@
 function tocaSom(seletorAudio) {
-  const elemento = document.querySelector(seletorAudio);
+  const elemento = document.querySelector(seletorAudio); //Parametro será um ID do HTML
 
     if (elemento != null || elemento.localName === 'audio') { 
         elemento.play();
